@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Establece el tipo de documento como HTML5 y especifica el idioma del documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta la página para que sea compatible con dispositivos móviles, escalando el contenido correctamente -->
+    <title>Fútbol Club Barcelona</title>
+    <!-- El título de la página que aparecerá en la pestaña del navegador -->
+    
+    <style>
+        /* Estilos CSS para toda la página */
+
+        body {
+            font-family: Arial, sans-serif;
+            /* Aplica la fuente Arial para todo el cuerpo del documento */
+            background-color: #f0f0f0;
+            /* Color de fondo gris claro */
+            margin: 0;
+            /* Elimina márgenes por defecto alrededor de la página */
+            padding: 0;
+            /* Elimina el padding por defecto */
+        }
+        
+        header {
+            background-color: #A50044;
+            /* Color grana para el encabezado */
+            color: white;
+            /* Texto en blanco */
+            padding: 20px;
+            /* Añade espacio alrededor del contenido del encabezado */
+            text-align: center;
+            /* Alinea el texto al centro */
+        }
+        
+        header img {
+            width: 100px;
+            /* Ajusta el ancho de la imagen del escudo a 100px */
+            height: auto;
+            /* Mantiene la proporción original de la imagen */
+        }
+
+        nav {
+            text-align: center;
+            /* Alinea el contenido del menú de navegación al centro */
+            background-color: #004D98;
+            /* Color azul para el fondo del menú */
+            padding: 10px;
+            /* Espacio interno en el área de navegación */
+        }
+        
+        nav a {
+            color: white;
+            /* Texto en blanco para los enlaces del menú */
+            margin: 0 15px;
+            /* Espacio horizontal entre los enlaces */
+            text-decoration: none;
+            /* Elimina el subrayado por defecto en los enlaces */
+            font-weight: bold;
+            /* Aplica negrita al texto de los enlaces */
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            /* Subraya los enlaces al pasar el cursor por encima */
+        }
+
+        .content {
+            margin: 20px;
+            /* Añade márgenes alrededor del contenido */
+            background-color: white;
+            /* Fondo blanco para el contenido */
+            padding: 20px;
+            /* Espacio interno en el contenido */
+            border-radius: 10px;
+            /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Sombra ligera alrededor del contenido */
+        }
+        
+        h1 {
+            color: #A50044;
+            /* Color grana para el título principal (h1) */
+        }
+
+        h2 {
+            color: #004D98;
+            /* Color azul para los títulos secundarios (h2) */
+        }
+
+        p {
+            line-height: 1.6;
+            /* Espaciado entre las líneas del texto para mejorar la legibilidad */
+        }
+
+        footer {
+            text-align: center;
+            /* Alinea el texto del pie de página al centro */
+            background-color: #A50044;
+            /* Color grana para el fondo del pie de página */
+            color: white;
+            /* Texto blanco en el pie de página */
+            padding: 10px;
+            /* Espacio interno en el pie de página */
+            position: fixed;
+            /* Fija el pie de página en la parte inferior de la ventana */
+            width: 100%;
+            /* El pie de página abarca todo el ancho de la página */
+            bottom: 0;
+            /* Coloca el pie de página en la parte inferior de la pantalla */
+        }
+
+        section {
+            padding: 20px 0;
+            /* Añade espacio arriba y abajo de cada sección */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cuerpo de la página web -->
+    
+    <header>
+        <!-- Encabezado de la página -->
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="Escudo FC Barcelona">
+        <!-- Imagen del escudo del FC Barcelona (puedes cambiar esta URL por una local si tienes el archivo) -->
+        <h1>Fútbol Club Barcelona</h1>
+        <!-- Título principal de la página (nombre del equipo) -->
+    </header>
+
+    <nav>
+        <!-- Menú de navegación -->
+        <a href="#inicio">Inicio</a>
+        <!-- Enlace que lleva a la sección de inicio dentro de la misma página -->
+        <a href="#historia">Historia</a>
+        <!-- Enlace a la sección de historia -->
+        <a href="#jugadores">Jugadores</a>
+        <!-- Enlace a la sección de jugadores -->
+        <a href="#titulos">Títulos</a>
+        <!-- Enlace a la sección de títulos -->
+        <a href="#contacto">Contacto</a>
+        <!-- Enlace a la sección de contacto -->
+    </nav>
+
+    <div class="content">
+        <!-- Contenedor principal del contenido de la página -->
+        
+        <section id="inicio">
+            <!-- Sección de inicio, identificada por el id "inicio" -->
+            <h2>Bienvenido al FC Barcelona</h2>
+            <!-- Título de la sección de bienvenida -->
+            <p> El Fútbol Club Barcelona, conocido popularmente como Barcelona o Barça, es un club de fútbol profesional
+            con sede en Barcelona, Cataluña, España. Fundado en 1899 por un grupo de futbolistas suizos, ingleses y
+            catalanes liderados por Joan Gamper, el club se ha convertido en uno de los equipos más exitosos y populares
+            del mundo.   
+
+
+            El FC Barcelona es famoso por su estilo de juego ofensivo y su compromiso con la promoción de jóvenes talentos
+            de su academia, La Masía. Además de su éxito en el fútbol, el club es conocido por su lema "Més que un club",
+            reflejando su importancia en la vida social y cultural de Cataluña.</p>
+            <!-- Texto de bienvenida -->
+        </section>
+
+        <section id="historia">
+            <!-- Sección de historia, identificada por el id "historia" -->
+            <h2>Historia</h2>
+            <p>El Fútbol Club Barcelona fue fundado en 1899 por un grupo de futbolistas liderados por Joan Gamper.</p>
+            <!-- Texto sobre la historia del club -->
+        </section>
+
+        <section id="jugadores">
+            <!-- Sección de jugadores, identificada por el id "jugadores" -->
+            <h2>Jugadores</h2>
+            <p>El Barça ha tenido a algunos de los mejores jugadores del mundo, como Lionel Messi, Xavi, y Andrés Iniesta.</p>
+            <!-- Texto sobre los jugadores famosos del club -->
+        </section>
+
+        <section id="titulos">
+            <!-- Sección de títulos, identificada por el id "titulos" -->
+            <h2>Palmarés</h2>
+            <p>El club ha ganado 26 títulos de La Liga, 31 de Copa del Rey, y 5 de UEFA Champions League, entre otros.</p>
+            <!-- Texto sobre los títulos ganados por el club -->
+        </section>
+
+        <section id="contacto">
+            <!-- Sección de contacto, identificada por el id "contacto" -->
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos a través de nuestras redes sociales o en el estadio Camp Nou.</p>
+            <!-- Información de contacto -->
+        </section>
+    </div>
+
+    <footer>
+        <!-- Pie de página -->
+        &copy; 2024 Fútbol Club Barcelona. Todos los derechos reservados.
+        <!-- Texto del pie de página que muestra derechos reservados -->
+    </footer>
+
+</body>
+</html>
